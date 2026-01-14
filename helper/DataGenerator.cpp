@@ -64,7 +64,7 @@ void TransformQuasiDataExact(int a[], int n, int c, bool inverted, std::mt19937 
 
 void generateSize(int a[], int size)
 {
-    int s = 1;
+    int s = 2;
     for (int i = 0; i < size; ++i)
     {
         a[i] = s;
@@ -74,7 +74,7 @@ void generateSize(int a[], int size)
 
 void generateRatio(double a[], int size)
 {
-    int s = 0;
+    double s = 0;
     for (int i = 0; i < size; ++i)
     {
         a[i] = s;
@@ -111,4 +111,8 @@ void GenerateData(int a[], int n, int typ, double c, size_t seed)
     default:
         GenerateRandomData(a, n, rng);
     }
+}
+
+void GenerateAllData()
+{
 }

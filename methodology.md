@@ -24,16 +24,5 @@ MergeSort
 QuickSort
 RadixSort
 CountingSort
-ShellSort
-FlashSort
-HeapSort
-
-
-Sequencial Sort
-
-Insertion
-Selection
 Bubble
-
-
 
